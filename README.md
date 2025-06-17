@@ -101,16 +101,78 @@ python manage.py runserver
 
 These accounts are preloaded and mapped to specific dashboards for easy testing.
 
-| Role              | Email / Username                                                          | Password     |
-| ----------------- | ------------------------------------------------------------------------- | ------------ |
-| Parent (2 kids)   | [elliot\_kedibone@aol.com](mailto:elliot_kedibone@aol.com)                | @0BusiaKenya |
-| Student           | [maria\_kedibone@bivgs.no](mailto:maria_kedibone@bivgs.no)                | @0BusiaKenya |
-| Subject Teacher   | [mary\_warlop@testteacher.no](mailto:mary_warlop@testteacher.no)          | @0BusiaKenya |
-| Classroom Teacher | [lydia\_d\_canova@bivgs.no](mailto:lydia_d_canova@bivgs.no)               | @0BusiaKenya |
-| HOD               | [mary\_r\_warlop@bivgs.no](mailto:mary_r_warlop@bivgs.no)                 | @0BusiaKenya |
-| Principal         | [philip\_walekhwa\_admin@bivgs.no](mailto:philip_walekhwa_admin@bivgs.no) | @0BusiaKenya |
-| Vice Principal    | [raymond\_y\_jumah@bivgs.no](mailto:raymond_y_jumah@bivgs.no)             | @0BusiaKenya |
-| Administrator     | [admin@bivgs.edu](mailto:admin@bivgs.edu)                                 | @0BusiaKenya |
+## 📑 Appendix A: Sample User Credentials for BIVGS Testing
+
+All users below share the **default password**: `@0BusiaKenya`
+
+---
+
+### 👨‍👩‍👧‍👦 Parents
+
+- **Parent with 2 children**: `elliot_kedibone@aol.com`  
+- **Parent with 1 child**: `alex_binger@gmail.com`
+
+---
+
+### 👩‍🎓 Students
+
+- **Maria Kedibone**: `maria_kedibone@bivgs.no`
+
+---
+
+### 🏫 Administrative Staff
+
+- **Principal**: `simon_galle@testteacher.no`  
+- **Vice Principal**: `benny_geys@testteacher.no`
+
+---
+
+### 🧑‍🏫 Heads of Department (HODs)
+
+- `anna_nerstad@testteacher.no`  
+- `rachel_wang@testteacher.no`  
+- `leah_fieseler@testteacher.no`  
+- `martha_andersen@testteacher.no`  
+- `esther_brinch@testteacher.no`
+
+---
+
+### 👩‍🏫 Classroom Teachers
+
+- `naomi_bruno@testteacher.no`  
+- `lydia_canova@testteacher.no`  
+- `joanna_eriksen@testteacher.no`  
+- `abigail_fiva@testteacher.no`
+
+---
+
+### 📚 Subject Teachers
+
+- `mary_warlop@testteacher.no`  
+- `elizabeth_ehling@testteacher.no`  
+- `sarah_stauskas@testteacher.no`  
+- `hannah_kisser@testteacher.no`  
+- `rebecca_silkoset@testteacher.no`  
+- `david_kreiberg@testteacher.no`  
+- `lin_ma@testteacher.no`  
+- `espen_moen@testteacher.no`  
+- `knut_mork@testteacher.no`  
+- `plamen_nenov@testteacher.no`  
+- `christian_riis@testteacher.no`  
+- `alessia_russo@testteacher.no`  
+- `erling_larsen@testteacher.no`  
+- `albert_satorra@testteacher.no`  
+- `genaro_sucarrat@testteacher.no`  
+- `anders_tveit@testteacher.no`  
+- `adrien_vigier@testteacher.no`  
+- `deborah_cross@testteacher.no`  
+- `francisco_martinez@testteacher.no`  
+- `gisle_natvik@testteacher.no`
+
+---
+
+> ⚠️ **Disclaimer**: All sample accounts were created for academic, demonstration, and development purposes only. All names and email addresses are fictional or anonymized.
+                               | @0BusiaKenya |
 
 Each user is routed to a different dashboard, for example:
 
