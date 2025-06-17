@@ -184,15 +184,47 @@ Each user is routed to a different dashboard, for example:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-* **Python 3.11+**
-* **Django 5.2.3**
-* **HTML5, Tailwind, Bootstrap**
-* **SQLite (dev-ready), PostgreSQL-ready**
-* **Matplotlib** for charting
-* **WeasyPrint** for PDF reports
-* **Nginx + Gunicorn** for production deployment
+The BIVGS platform is developed using a modern, modular, and extensible technology stack. This stack balances security, scalability, clarity, personalization, and future-readiness, while ensuring a clean user experience and efficient system performance.
+
+### 🔹 Core Development Stack
+
+| Layer              | Technology / Tool       | Purpose                                                                 |
+|--------------------|--------------------------|-------------------------------------------------------------------------|
+| **Backend Framework** | Django (Python)           | Core web framework for routing, models, role-based views, permissions, and RBAC |
+| **Frontend Styling**  | Tailwind CSS             | Utility-first CSS framework enabling responsive, modern, and minimal UIs |
+| **Templating Engine** | Django Templates         | Server-side HTML rendering with context-driven dynamic logic           |
+| **Database**         | SQLite                   | Lightweight relational DB used for development and testing             |
+| **Authentication**   | Django Auth System       | Session management and built-in role-based user access                 |
+| **Forms & Validation** | Django Forms           | Validates and processes data (login, assignments, grading, etc.)       |
+| **Visualization**     | Chart.js, Plotly.js     | Graphs for grade trends, GPA insights, and performance analysis        |
+| **PDF Generation**    | xhtml2pdf (pisa)        | Converts HTML dashboards into branded, print-ready PDF report cards    |
+| **PDF Templates**     | Custom HTML Layouts     | Optimized for A4 printing and embedded branding                        |
+| **Media Handling**    | MEDIA_ROOT, MEDIA_URL   | Manages uploads: student photos, school logos, and documents           |
+| **Static Files**      | Django staticfiles app  | Manages Tailwind CSS, JavaScript, images, and custom styles            |
+| **Custom CSS**        | bootstrap_overrides.css | Legacy Bootstrap integration and theme overrides                       |
+
+---
+
+### 🧾 Styling & Print Design Principles
+
+- **Tailwind Themes**: Consistent typography, spacing, color palettes (e.g., `bg-green-500` for success).
+- **Role-Based Layouts**: Custom interfaces for each user type (student, parent, teacher, HOD, principal).
+- **Print Styles**: Dedicated A4-optimized templates for exportable PDFs.
+- **Minimal JavaScript**: Reduced client-side complexity for faster load times and HTMX integration readiness.
+
+---
+
+### 🚧 Planned & Future Technologies
+
+| Technology     | Purpose                                                              |
+|----------------|----------------------------------------------------------------------|
+| **HTMX**        | Partial page updates with server interaction (AJAX-like, minimal JS) |
+| **PostgreSQL**  | Production-grade DB with indexing, concurrency, scalability          |
+| **Docker**      | Containerized development and deployment environments                |
+| **Celery + Redis** | Asynchronous task queues for background jobs (emails, GPA calc)   |
+
 
 ---
 
