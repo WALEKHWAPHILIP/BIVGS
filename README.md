@@ -223,15 +223,3 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-### ✅ Next Step for You
-
-1. Copy and paste the full text above into a file called `README.md` in your project root.
-2. Then run:
-
-```bash
-git add README.md
-git commit -m "Add final README with extended roles and academic context"
-git push
-````
-
-Would you like a **PDF version** of this README or help adding **badges** (e.g., Python version, license, deployment status)?
