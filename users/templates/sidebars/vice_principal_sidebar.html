@@ -1,0 +1,13 @@
+<!-- 📊 Performance Monitoring -->
+<p class="text-xs uppercase text-purple-200 pt-6">Performance Monitoring</p>
+<div class="space-y-2 mt-2">
+    <a href="{% url 'users:vp_students' %}" class="block px-3 py-2 rounded bs-vice-principal-btn transition">
+        <i class="fas fa-user-graduate mr-2"></i> All Students
+    </a>
+    <a href="{% url 'users:vice_principal_view_subject_performance' %}" class="block px-3 py-2 rounded bs-vice-principal-btn transition">
+        <i class="fas fa-chart-bar mr-2"></i> Subject Performance
+    </a>
+    <a href="{% url 'users:vice_principal_view_student_charts' %}" class="block px-3 py-2 rounded bs-vice-principal-btn transition">
+        <i class="fas fa-chart-line mr-2"></i> School-Wide Charts
+    </a>
+</div>

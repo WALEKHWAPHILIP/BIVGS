@@ -1,0 +1,69 @@
+# --- Python Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Django Stuff ---
+*.log
+*.sqlite3
+.env
+*.env
+
+# Migrations cache only (not the migration scripts themselves!)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# --- Media (Keep for project) ---
+# DO NOT ignore media/ because you want to share real files
+
+# --- Staticfiles (exclude production output) ---
+staticfiles/
+
+# Include actual static/ if it has source JS/CSS you wrote
+# DO NOT ignore static/ unless you auto-generate it all
+
+# --- Virtual Environments ---
+venv/
+.venv/
+ENV/
+env/
+
+# --- IDE / Editor Config ---
+.vscode/
+.idea/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Pip / PyInstaller / Build Tools ---
+pip-log.txt
+pip-delete-this-directory.txt
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# --- Coverage / Testing ---
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+.pytest_cache/
+.cache/
+
+# --- Typing Tools ---
+.pyre/
+.mypy_cache/
+.dmypy.json
+dmypy.json

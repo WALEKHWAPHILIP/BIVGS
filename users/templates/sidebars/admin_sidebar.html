@@ -1,0 +1,13 @@
+<!-- ⚙️ Admin Dashboard Sidebar -->
+<p class="text-xs uppercase text-rose-200 pt-4">Admin Actions</p>
+<div class="space-y-2 mt-2">
+    <a href="{% url 'users:admin_register_user' %}" class="block px-3 py-2 rounded bs-admin-btn transition">
+        <i class="fas fa-user-plus mr-2"></i> Register New Users
+    </a>
+    <a href="{% url 'users:admin_update_school_settings' %}" class="block px-3 py-2 rounded bs-admin-btn transition">
+        <i class="fas fa-school mr-2"></i> Update School Settings
+    </a>
+    <a href="{% url 'users:admin_unassigned_students' %}" class="block px-3 py-2 rounded bs-admin-btn transition">
+        <i class="fas fa-user-check mr-2"></i> Unassigned Users
+    </a>
+</div>

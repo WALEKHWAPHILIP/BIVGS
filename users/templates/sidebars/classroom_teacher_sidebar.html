@@ -1,0 +1,24 @@
+<!-- 👩‍🏫 Teaching Tools -->
+<p class="text-xs uppercase text-sky-200 pt-4">Performance Tools</p>
+<div class="space-y-2 mt-2">
+
+
+  <!-- 📊 Subject Performance -->
+  <a href="{% url 'users:classroom_teacher_view_subject_performance' %}"
+     class="block px-3 py-2 rounded bs-classroom-teacher-btn transition">
+     <i class="fas fa-chart-bar mr-2"></i> Subject Performance
+  </a>
+
+  <!-- 🎓 Students -->
+  <a href="{% url 'users:classroom_students' %}" 
+     class="block px-3 py-2 rounded bs-classroom-teacher-btn transition">
+     <i class="fas fa-user-graduate mr-2"></i> Class Students
+  </a>
+
+  <!-- 📈 Class Charts -->
+  <a href="{% url 'users:classroom_teacher_charts' %}" 
+     class="block px-3 py-2 rounded bs-classroom-teacher-btn transition">
+     <i class="fas fa-chart-line mr-2"></i> Class Charts
+  </a>
+
+</div>
