@@ -97,13 +97,12 @@ python manage.py runserver
 
 ---
 
-## 📄 Sample & Extended Demo Users
 
-These accounts are preloaded and mapped to specific dashboards for easy testing.
-
-## 📑 Appendix A: Sample User Credentials for BIVGS Testing
+## 📑 Sample User Credentials for BIVGS Testing
 
 All users below share the **default password**: `@0BusiaKenya`
+
+> These accounts are preloaded and mapped to specific dashboards for easy testing
 
 ---
 
