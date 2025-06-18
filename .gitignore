@@ -67,3 +67,7 @@ coverage.xml
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# --- Project Documentation & Media (Local Only) ---
+/about_project/
+

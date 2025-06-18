@@ -180,7 +180,7 @@ Each user is routed to a different dashboard, for example:
 * `/dashboard/principal/`
 * etc.
 
-> ⚠️ **Disclaimer**: These are test/demo users created for academic and demonstration purposes only. All identities are fictional or anonymized.
+
 
 ---
 
